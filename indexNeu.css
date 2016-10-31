@@ -7,29 +7,6 @@ body{
      text-align:        justify;
 }
 
-div#tabellenContainer{
-    display:            table;
-    width:              100%;
-    margin-left:        auto;
-    margin-right:       auto;
-}
-
-div#tabellenZeile{
-    display:            table-row;
-}
-
-#hauptinhalt{
-    display:            table-cell;
-    width:              75%
-    padding:            0px;
-}
-
-#seitenbilder{
-    display:            table-cell;
-    width:              25%;
-    padding-top:       20px;
-}
-
 .rahmen {
 	font-style:         italic;
 	border-color:       black;
@@ -41,13 +18,13 @@ div#tabellenZeile{
 	margin-top:         0px;
 	margin-left:        30px;
 	margin-right:       30px;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 				10px 10px 5px #888888;
 }
 
 .box {
 	margin-top:         30px;
-	padding-left:       40px;
-	padding-right:      20px;
+	padding-left:       30px;
+	padding-right:      30px;
 }
 
 .kursinfo{
@@ -77,7 +54,36 @@ div#tabellenZeile{
 }
 
 
+.Links{
+    text-align:         left;
+}
 
+
+.Rechts{
+    text-align:         right;
+}
+
+.Center{
+    text-align:         center;
+}
+
+td.linienLinks{
+    text-align:         left;
+		border:							thin solid black; 		
+		border-collapse:		collapse;
+}
+
+td.linienCenter{
+    text-align:         center;
+		border:							thin solid black; 		
+		border-collapse:		collapse;
+}
+
+/*
+th, td{
+		border:							thin solid black; 		
+}
+*/
 /*das hier klappt nicht:
 .box a:link{
   color:            #0404B4;
