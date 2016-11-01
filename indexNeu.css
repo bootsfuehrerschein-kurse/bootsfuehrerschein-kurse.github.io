@@ -27,6 +27,7 @@ body{
 	padding-right:      30px;
 }
 
+
 .kursinfo{
     list-style-type:    circle;
     width:              90%
@@ -37,22 +38,6 @@ body{
     font-weight:        bold;
     line-height:       1.6em;
 }
-
-
-.Center{
-    text-align:         center;
-}
-
-.klein{
-    text-align:         center;
-		width:							30%;
-}
-
-.gross{
-    text-align:         left;
-		width:							70%;					
-}
-
 
 .Links{
     text-align:         left;
@@ -67,6 +52,16 @@ body{
     text-align:         center;
 }
 
+.klein{
+		width:							20%;
+		
+}
+
+.gross{
+		width:						80%;
+		padding:					0px 40px 0px 10px;
+}
+
 td.linienLinks{
     text-align:         left;
 		border:							thin solid black; 		
@@ -79,10 +74,15 @@ td.linienCenter{
 		border-collapse:		collapse;
 }
 
-/*
-th, td{
-		border:							thin solid black; 		
+div.figure p {
+		display: 						table-cell;
+  	width: 							100%;
 }
+div.figure p + p {
+  	display: 						table-caption;
+  	caption-side: 			top;
+}
+
 */
 /*das hier klappt nicht:
 .box a:link{
