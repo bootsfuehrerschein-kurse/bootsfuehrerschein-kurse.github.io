@@ -1,0 +1,60 @@
+body{
+     background-color:  #b3d1ff;
+     color:             black;
+     text-align:        justify;
+}
+
+body, html {
+		height: 						100%
+}
+
+.rahmen {
+	font-style:         italic;
+	border-color:       black;
+	border-width:       1px;
+	border-style:       thin;
+	color:              #444444;
+	background-color:   #cce0ff;
+	padding:            25px;
+	margin:         		0px 0px 0px 0px;
+	margin-left:        0px;
+	margin-right:       0px;
+	box-shadow: 				10px 10px 5px #888888;
+}
+
+.box {
+	margin-top:         30px;
+	padding-left:       30px;
+	padding-right:      30px;
+}
+
+
+.kursinfo{
+    list-style-type:    circle;
+    width:              90%
+}
+
+.ueberschrift{
+    list-style-type:    none;
+    font-weight:        bold;
+    line-height:       1.6em;
+}
+
+.weisseSchrift {
+  color:             white;  		
+}
+
+td.linienLinks{
+    text-align:         left;
+		border:							thin solid black; 		
+		border-collapse:		collapse;
+}
+
+td.linienCenter{
+    text-align:         center;
+		border:							thin solid black; 		
+		border-collapse:		collapse;
+}
+
+
+	
