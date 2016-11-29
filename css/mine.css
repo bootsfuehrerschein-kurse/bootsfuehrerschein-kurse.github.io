@@ -41,7 +41,21 @@ body, html {
 }
 
 .weisseSchrift {
-  color:             white;  		
+  	color:             	white;  		
+}
+
+.titelLabel{
+		color: 							white;
+		text-align:					center;
+		font-size:					150%;
+		text-shadow: 				5px 5px 5px black;	
+}
+
+.buttonLabel{
+		font-weight: 				normal; 
+		font-size: 					16px; 
+		padding: 						10px;
+		text-shadow: 				5px 5px 5px black;	
 }
 
 td.linienLinks{
