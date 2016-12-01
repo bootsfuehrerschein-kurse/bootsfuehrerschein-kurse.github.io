@@ -58,6 +58,15 @@ body, html {
 		text-shadow: 				5px 5px 5px black;	
 }
 
+.labelSchrift{
+		margin-top:					10px;
+		color: 							white;
+		font-weight: 				normal; 
+		font-size:					100%;
+		text-shadow: 				5px 5px 5px black;	
+}
+
+
 td.linienLinks{
     text-align:         left;
 		border:							thin solid black; 		
